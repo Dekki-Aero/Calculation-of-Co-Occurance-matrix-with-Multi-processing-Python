@@ -7,6 +7,19 @@ Original file is located at
     https://colab.research.google.com/drive/1ypIjMCuVyGe79uFytHj4oxxaoQB0L-eN
 """
 
+import warnings
+warnings.filterwarnings("ignore")
+import pandas as pd
+import numpy as np
+import nltk
+import string
+import math
+from subprocess import call
+import multiprocessing as mp
+import pickle
+import os
+from collections import Counter
+
 ## Example calculation of co occurance matrix with given vocab and corpus ##
 
 '''## Co occurance matrix for following corpus of window size 2
